@@ -1,0 +1,26 @@
+{
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Karamveer2006/zoom-backend.git"
+  },
+  "author": "karamveer",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Karamveer2006/zoom-backend/issues"
+  },
+  "homepage": "https://github.com/Karamveer2006/zoom-backend#readme",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^6.0.0",
+    "express": "^5.2.1",
+    "http-status": "^2.1.0",
+    "mongoose": "^9.4.1",
+    "socket.io": "^4.8.3"
+  }
+}
