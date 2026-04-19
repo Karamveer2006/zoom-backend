@@ -4,6 +4,7 @@ import { Server } from 'socket.io';
 import mongoose from 'mongoose';
 import cors from 'cors';
 import { connectToServer } from './controllers/socketManager.js';
+import userRoutes from './routes/users.route.js';
 
 
 const app = express();
@@ -24,6 +25,8 @@ const main=async () => {
 };
 
 main();
+
+app.use('/api/users', userRoutes);
 
 
 app.get('/', (req, res) => {

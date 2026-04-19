@@ -2,11 +2,11 @@
   "name": "backend",
   "version": "1.0.0",
   "main": "index.js",
-  "type" : "module",
+  "type": "module",
   "scripts": {
     "dev": "src/nodemon app.js",
     "start": "node src/app.js",
-    "prod":"pm2 src/app.js"
+    "prod": "pm2 src/app.js"
   },
   "repository": {
     "type": "git",
@@ -22,8 +22,10 @@
   "dependencies": {
     "bcrypt": "^6.0.0",
     "cors": "^2.8.6",
+    "crypto": "^1.0.1",
     "express": "^5.2.1",
     "http-status": "^2.1.0",
+    
     "mongoose": "^9.4.1",
     "socket.io": "^4.8.3"
   }
