@@ -9,7 +9,7 @@ import userRoutes from './routes/users.route.js';
 
 
 const app = express();
-app.use(cors({ origin: process.env.CLIENT_URL || 'http://localhost:5173' }));
+app.use(cors({ origin: '*' }));
 app.use(express.json({limit: '40kb'}));
 app.use(express.urlencoded({limit: '40kb', extended: true}));
 
